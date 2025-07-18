@@ -7,8 +7,72 @@
     <link href="stylesheet.css" rel="stylesheet"> </link>
 </head>
 <body>
+    <div class="container">
+        <div class="hero-image">This is where the hero-image will go
+            <div class="logo">This is where the logo will sit</div>
+        </div>
+            <div class="form-container">
+                <h2>This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up now to get started</h2>
+                <h2>You <i>know</i> you want to.</h2>
+                <div>
+                <form>
+                    <fieldset>
+                        <legend>Let's do this!</legend>
+                        <header>Let's do this!</header>
+                        <p>
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name" placeholder="John"/>
+                        </p>
+                            <p>
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name" placeholder="Smith"/>
+                        </p>
+                        <p>
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" placeholder="johnsmith@abc.com"/>
+                        </p>
+                            <p>
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" name="phone" id="phone" placeholder="070-444-2121" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+                        </p>
+                        <p>
+                            <label for="pwd">PASSWORD</label>
+                            <input 
+                            type="password" 
+                            name="pwd" 
+                            id="pwd" 
+                            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                            title="Must contain at least one number and one 
+                            uppercase and lowercase letter, 
+                            and at least 8 or more characters" required/>
+                        </p>
+                        <p>
+                            <label for="pwd">CONFIRM PASSWORD</label>
+                            <input 
+                            type="password" 
+                            name="pwd" 
+                            id="pwd" 
+                            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                            title="Must contain at least one number and one 
+                            uppercase and lowercase letter, 
+                            and at least 8 or more characters" required/>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <label for="btn"></label>
+                        <input type="submit">
+                    <p>Already have an account? <a href="google.com">Log in</a></p>
+                    </fieldset>
+                </form>
+                </div>
+            </div>
+    </div>
 
-    <p>This is to see my text are using the ubuntu fonts or not</p>
+
+
+
     
 </body>
 </html>
