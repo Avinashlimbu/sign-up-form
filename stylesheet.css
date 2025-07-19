@@ -7,6 +7,24 @@
     font-style: normal;
 }
 
-p {
-    font-family: ubuntu;
-} 
+* {
+    font-family: ubuntu, 'Times New Roman', Times, serif;
+}
+
+body,html {
+    height: 100%;
+    padding: auto;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+}
+
+.hero-image {
+    background-image: url(/images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
