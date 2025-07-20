@@ -11,10 +11,10 @@
     font-family: ubuntu, 'Times New Roman', Times, serif;
 }
 
-body,html {
-    height: 100%;
-    padding: auto;
-    margin: auto;
+html, body {
+    height:100vh;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
@@ -22,9 +22,35 @@ body,html {
 }
 
 .hero-image {
-    background-image: url(/images/background-image.jpg);
+    display: flex;
     background-repeat: no-repeat;
     background-size: cover;
+    position:relative;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-image > img {
     width: 100%;
-    height: auto;
+}
+
+
+
+.logo {
+    background-color: rgba(87, 86, 137, 0.5);
+    position: absolute;
+    width: 100%;
+}
+
+.credit {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin: 0;
+}
+
+.credit > a {
+    color: bisque;
 }
