@@ -19,7 +19,6 @@ html {
 }
 body {
     height: 100%;
-    border: 5px dashed red;
 }
 
 
@@ -29,7 +28,6 @@ body {
 }
 
 .container-1 {
-    border: 5px solid burlywood;
     position: relative;
     min-width: 300px;
     overflow: hidden;
@@ -41,7 +39,6 @@ body {
 
 .container-2 {
     flex: 1;
-    border: 5px solid burlywood;
     background-color: whitesmoke;
 }
 
@@ -124,8 +121,7 @@ form fieldset:first-of-type header {
 
 form fieldset:first-of-type label,
 form fieldset:first-of-type input {
-  display: block;
-  width: 50%;
+  display: flex;
   margin-bottom: 8px;
 }
 
@@ -138,7 +134,7 @@ form fieldset:nth-child(2) {
 }
 
 fieldset button {
-    background-color: hsl(245, 52%, 29%);
+    background-color:#2E97F2;
     color: white;
     font-size: 20px;
     padding: 10px 20px;
@@ -150,3 +146,25 @@ fieldset button {
 /* styling the inside of forms */
 
 
+input {
+    font-size: 18px;
+    border: #e6e3e3;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px hsl(245, 52%, 29%);  
+}
+
+input::placeholder {
+    color: #cccccc;
+}
+
+input[type="password"]:invalid:not(:placeholder-shown),
+input[type="email"]:invalid:not(:placeholder-shown),
+input[type="tel"]:invalid:not(:placeholder-shown)
+{
+    border: 2px solid red;
+}
+
+input:valid:not(:placeholder-shown) {
+    border: 2px solid #2E97F2;
+}
