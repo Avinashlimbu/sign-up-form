@@ -1,15 +1,15 @@
 /*making default global elements */
 @font-face {
-    font-family: "ubuntu";
+    font-family: "FiraCode";
     src: 
-    url("fonts/Ubuntu-Regular.woff2") format("woff2"),
-    url("fonts/Ubuntu-Regular.woff") format("woff");
+    url("fonts/FiraCode-Regular.woff2") format("woff2"),
+    url("fonts/FiraCode-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 * {
-    font-family: ubuntu, 'Times New Roman', Times, serif;
+    font-family: FiraCode, 'Times New Roman', Times, serif;
     padding: 0;
     margin: 0;
 }
