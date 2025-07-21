@@ -2,8 +2,7 @@
 
 This is my completed sign-up form assignment for The Odin Project.  
 
-Live page link [Link](#https://avinashlimbu.github.io/sign-up-form)
-
+🔗 **Live page:** [View here](https://avinashlimbu.github.io/sign-up-form)
 ---
 
 ## What’s Inside
